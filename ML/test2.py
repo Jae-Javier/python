@@ -1,6 +1,6 @@
-import csv
-
-with open('WSU_MetStationData.csv', newline='') as csvfile:
-    reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
-    for row in reader:
-        print(', '.join(row))
+a, b = 0, 1
+while a < 12 or a == 12:
+    print(a, end=',')
+    print(b, end=',')
+    print((a+b))
+    a, b = b, a + b
