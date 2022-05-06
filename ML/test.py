@@ -1,8 +1,6 @@
-for n in range(2, 10):
-    for x in range(2, n):
-        if n % x == 0:
-            print(n, 'equals', x, '*', n//x)
-            break
-    else:
-        print(n, 'is a prime number')
-# this is a test
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig, ax = plt.subplots()  # Create a figure containing a single axes.
+ax.plot([1, 2, 3, 4], [1, 4, 2, 3])  # Plot some data on the axes.
